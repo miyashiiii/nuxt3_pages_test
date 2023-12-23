@@ -1,0 +1,22 @@
+@use "vuetify/styles";
+.v-application {
+  [class*="-h2"] {
+    font-size: 2rem !important;
+    font-family: "Ubuntu", sans-serif !important;
+  }
+}
+.v-app-bar-title a {
+  color: white !important;
+  font-weight: bold !important;
+  font-family: "Ubuntu", sans-serif !important;
+  text-decoration: none !important;
+}
+.prof-text {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.4rem !important;
+}
+footer p {
+  font-family: "Ubuntu", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+}
